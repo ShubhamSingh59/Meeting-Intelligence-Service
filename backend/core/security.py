@@ -18,7 +18,7 @@ def create_access_token(username):
 
 def current_user(request: Request, token: str = Depends(oauth2_scheme)):
     try:
-        payload = jwt.decode(token, config.SECRET_KEY, algorithm=[config.ALGORITHM])
+        payload = jwt.decode(token, config.SECRET_KEY, algorithms=[config.ALGORITHM])
         username: str = payload.get("sub")
         if username is None:
             raise HTTPException(status_code=401, detail="Invalid Authentication Token")
