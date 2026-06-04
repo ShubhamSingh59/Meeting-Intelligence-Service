@@ -133,8 +133,8 @@ def get_evaluation_details():
     return {
         "candidateName": "Shubham Singh",
         "email": "shubhams@alumni.iitgn.ac.in",
-        "repositoryUrl": "https://github.com/yourusername/your-repo-name",
-        "deployedUrl": "",
+        "repositoryUrl": "https://github.com/ShubhamSingh59/Meeting-Intelligence-Service",
+        "deployedUrl": "https://meeting-intelligence-service-zj75.onrender.com",
         "externalIntegration": "Discord Webhook API",
         "features": ["AI Analysis", "Reminder Scheduler", "Database Integration"],
     }
