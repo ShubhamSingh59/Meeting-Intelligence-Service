@@ -1,7 +1,7 @@
 ## Core Requirements
-[ ] Public GitHub repository submitted
-[ ] Application deployed and accessible publicly
-[ ] README contains setup and run instructions
+[x] Public GitHub repository submitted
+[x] Application deployed and accessible publicly
+[x] README contains setup and run instructions
 [x] Authentication implemented
 [x] Database models designed and documented
 [x] Global error handling implemented
@@ -15,5 +15,5 @@
 [x] Scheduled reminder job implemented
 [x] One real third-party integration implemented
 [x] Reminder notifications delivered through integration
-[ ] Unit tests implemented
+[x] Unit tests implemented
 [x] Input validation implemented
